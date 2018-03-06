@@ -8,7 +8,15 @@ There are two kind of methods to get the job done, one is `transfer learning`, a
 
 ## Transfer Learning
 
-In this case, I use ResNet-152 to do the transfer learning which is easy to do, and get 0.0532 score as test result.
+In this case, I use ResNet-152 to do the transfer learning which is easy to do, and get `0.05304` score as test result.
+
+There are some great materials we can use:
+
+[Transfer Learning tutorial - PyTorch Tutorial](http://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
+
+[pytorch-cat-vs-dogs - GitHub Repo](https://github.com/desimone/pytorch-cat-vs-dogs/)
+
+Based on materials above, we successfully completed transfer learning and get a moderate result.
 
 ## Feature Extraction
 
