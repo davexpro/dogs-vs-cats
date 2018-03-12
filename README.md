@@ -2,37 +2,11 @@
 
 Competition: [Dogs vs. Cats Redux: Kernels Edition](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition)
 
-Dogs Vs. Cats is a great case to learn how to use a deep-learning framework such as PyTorch, thus, I create this repo to record how I learn PyTorch.
+This Repo is a kind of framework tutorial, I used both Keras and PyTorch to do transfer learning.
 
-There are two kind of methods to get the job done, one is `transfer learning`, another is to train on the features extracted by some nice pre-trained models.
+For Keras, there are different score, which you can pay a visit to `keras_transfer_learning` notebook.
 
-## Transfer Learning
-
-In this case, I use ResNet-152 to do the transfer learning which is easy to do, and get `0.05304` score as test result.
-
-There are some great materials we can use:
-
-[Transfer Learning tutorial - PyTorch Tutorial](http://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
-
-[pytorch-cat-vs-dogs - GitHub Repo](https://github.com/desimone/pytorch-cat-vs-dogs/)
-
-Based on materials above, we successfully completed transfer learning and get a moderate result.
-
-## Feature Extraction
-
-In this case, to do.
-
-## Problem Encountered
-
-### Train / Test Split
-
-https://gist.github.com/kevinzakka/d33bf8d6c7f06a9d8c76d97a7879f5cb
-
-### Multi-GPU Training
-
-https://github.com/pytorch/examples/blob/master/imagenet/main.py#L85
-
-http://pytorch.org/tutorials/beginner/former_torchies/parallelism_tutorial.html
+For PyTorch, I use ResNet-152 to do the transfer learning which is easy to do, and get `0.05304` score as test result.
 
 ## License
 
